@@ -26,7 +26,7 @@ SYSTEM_PROMPT = """You are a helpful assistant capable of accessing external fun
 
 
 # Initialize client using AI Studio API key
-api_key = os.getenv("GOOGLE_API_KEY", "PLACE_YOUR_API_KEY_HERE")
+api_key = os.getenv("GOOGLE_API_KEY", "AIzaSyDIp7sbGuKHYVomf0cG47XMJxldFLgwcOgRE")
 client = genai.Client(api_key=api_key)
 
 
